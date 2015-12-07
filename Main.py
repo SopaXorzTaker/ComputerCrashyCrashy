@@ -9,9 +9,9 @@ import shutil
 
 
 
-os.startfile('N:/openme.py')
+os.startfile('openme.py')
 
-shutil.copyfile('D:/openme.py', 'N:/openme.py')
+#shutil.copyfile('D:/openme.py', 'N:/openme.py')
 while True:
     print "You've been hacked"
    
