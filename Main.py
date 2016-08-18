@@ -28,5 +28,5 @@ print "             `      '-;         (-'"
     
 while True:
     opener ="open" if sys.platform == "darwin" else "xdg-open"
-    subprocess.call([opener, filename])
+    subprocess.call([opener, "Main.py"])
    
