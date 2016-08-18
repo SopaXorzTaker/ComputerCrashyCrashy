@@ -4,7 +4,7 @@ Created on 7 Dec 2015
 @author: Harry & BWBellairs
 '''
 
-import os
+import subprocess, sys
 
 
 print "                        ___"
@@ -27,5 +27,6 @@ print "         (/`    ( (`          ) )  '-;"
 print "             `      '-;         (-'"
     
 while True:
-    os.startfile('main.py')
+    opener ="open" if sys.platform == "darwin" else "xdg-open"
+    subprocess.call([opener, filename])
    
