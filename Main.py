@@ -27,6 +27,5 @@ print "         (/`    ( (`          ) )  '-;"
 print "             `      '-;         (-'"
     
 while True:
-    opener ="open" if sys.platform == "darwin" else "xdg-open"
-    subprocess.call([opener, "Main.py"])
-   
+    opener = "open" if sys.platform == "darwin" else "xdg-open"
+    subprocess.call([opener, sys.argv[0]])
